@@ -1,0 +1,79 @@
+
+.header{
+
+  height: 73px;
+  display: flex;
+  background-color: rgb(67, 65, 65);
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  flex-direction: row;
+  align-items: center;
+  z-index: 100;
+}
+.left-section{
+  display: flex;
+  color: black;
+  width: 180px;
+  align-items: center;
+  justify-content: center;
+}
+.middle-section{
+display: flex;
+flex: 1.15;
+font-size: 13px;
+justify-content: space-between;
+align-items: center;
+font-weight:600;
+margin-left: 10px;
+}
+.middle-icons:hover{
+
+  background-color: rgb(79, 79, 79);
+  cursor: pointer;
+
+
+}
+.middle-icons{
+  height: 73px;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+.right-section{
+  display: flex;
+  flex: 2;
+  height: 73px;
+  justify-content: end;
+  margin-right: 10px;
+  align-items: center;
+  
+}
+.right-section span{
+  font-size: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.right-section div{
+  display: flex;
+  height: 73px;
+  align-items: center;
+}
+.right-section div:hover{
+  background-color: rgb(79, 79, 79);
+  cursor: pointer;
+}
+
+
+
+
+
+#jaguar-logo{
+  width: 180px;
+}
+

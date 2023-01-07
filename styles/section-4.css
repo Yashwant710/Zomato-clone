@@ -1,0 +1,41 @@
+.sec4-header{
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  font-family: Kanit,Arial;
+  font-weight: bold;
+  letter-spacing: 5.5px;
+  padding-bottom: 20px;
+  display: flex;
+  margin-top: -15px;
+}
+.section-4{
+  padding-top: 80px;
+  margin-top: 30px;
+  background-color: #f0f0f0;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+  
+}
+.grid-sec4{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 90px;
+  padding-right: 40px;
+  margin-top: 50px;
+  column-gap: 0px;
+
+
+}
+.card-rate1{
+  font-size: 13px;
+padding-top: 10px;
+width: 347px;
+line-height: 1.5;
+padding-top: 10px;
+display: flex;
+
+}
+

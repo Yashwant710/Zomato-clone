@@ -1,0 +1,131 @@
+.section-1{
+  height: 546px;
+  /* background-color: aqua; */
+  position: relative;
+
+}
+#sec1-img{
+
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+ 
+
+}
+.section-1-textbox{
+  height: 150px;
+  position: absolute;
+  top: 35%;
+  bottom: 65%;
+  left: 5%;
+  right: 73%;
+  background-color: white;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 10px;
+  display: flex;
+  padding-bottom: 15px;
+  flex-direction: column;
+  opacity: 0.95;
+  margin-right: -40px;
+
+}
+#sec-1-line-1{
+  font-size: 2.2rem;
+  font-weight:700;
+  display: flex;
+  justify-content: stretch;
+}
+.sec-1-button{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  display: flex;
+  opacity: 0.83;
+
+}
+#arrow{
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.section-1-play{
+  position: absolute;
+  width: 170px;
+   bottom: 5.4%;
+  left: 6.682%;
+  right: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+
+
+.big-dot{
+  height: 42px;
+  width: 42px;
+  background-color:transparent;
+  border-radius: 21px;
+  border-width: 2px;
+  color: rgb(255, 255, 255);
+  border-style: solid;
+  border-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.dot{
+  height: 8px;
+  width: 8px;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 2px;
+  background-color: transparent;
+  color: white;
+
+}
+.dot-{
+  height: 8px;
+  width: 8px;
+  border-radius: 8px;
+  background-color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+}
+.down-arrow{
+  position: absolute;
+  background-color:#3c3c3b;
+  color: white;
+  height: 52px;
+  width: 51px;
+  bottom: 0;
+  left: 48%;
+  right: 52%;
+  cursor: pointer;
+  transition: 0.6s;
+  
+  
+  
+}
+.in-arrow{
+  font-size: 37px;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    margin-top: -4px;
+  
+}
+.down-arrow:hover{
+  background-color: white;
+  color: black;
+  
+}
+
